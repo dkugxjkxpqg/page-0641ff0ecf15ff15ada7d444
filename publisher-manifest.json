@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "template_version": "7ffa5ebee0a6d05c86c7",
+  "page_size": 20,
+  "site_id": "8c938fdff214358bf1aa9bd9",
+  "owner": "dkugxjkxpqg",
+  "repo": "page-0641ff0ecf15ff15ada7d444",
+  "title": "青云梯",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "0641ff0ecf15ff15ada7d444",
+      "a": "青云梯",
+      "b": "",
+      "entity": "青云梯",
+      "brand": "青云梯",
+      "separator": "",
+      "path": "index.html",
+      "hash": "1225d0f61ee4010a2b2e746012980026a1a75981c378573df1969915bafabafc",
+      "content": {
+        "keyword1": "青云梯",
+        "keyword2": "",
+        "primary_entity": "青云梯",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "青云梯提供优质VPN网络加速服务，安全稳定的客户端下载和套餐选择。",
+          "AI_DESCRIPTION": "青云梯提供优质VPN网络加速服务，安全稳定的客户端下载和套餐选择。"
+        },
+        "_brand_page": {
+          "version": 1,
+          "body": "\n\n\n    \n    \n    \n    \n    \n    \n    <style>\n        :root {\n            --white: #FAF8F4;\n            --coral: #FF6B6B;\n            --dark: #333333;\n        }\n        * { box-sizing: border-box; margin:0; padding:0; }\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n            background: var(--white);\n            color: var(--dark);\n            line-height: 1.7;\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 20px;\n        }\n        nav {\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            padding: 1rem 0;\n            border-bottom: 2px solid var(--coral);\n            margin-bottom: 2rem;\n        }\n        .logo {\n            font-size: 1.5rem;\n            font-weight: bold;\n            color: var(--coral);\n        }\n        h1 {\n            font-size: 2.5rem;\n            text-align: center;\n            margin-bottom: 2rem;\n            color: var(--dark);\n        }\n        h2 {\n            font-size: 1.8rem;\n            margin: 2rem 0 1rem;\n            color: var(--coral);\n        }\n        .staggered {\n            display: flex;\n            gap: 3rem;\n            margin: 3rem 0;\n            flex-wrap: wrap;\n        }\n        .staggered > div {\n            flex: 1;\n            min-width: 300px;\n        }\n        .text {\n            flex: 1;\n        }\n        .card {\n            flex: 1;\n            background: white;\n            padding: 1.5rem;\n            border-radius: 8px;\n            box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n            border-left: 5px solid var(--coral);\n        }\n        button {\n            background: var(--coral);\n            color: white;\n            border: none;\n            padding: 0.75rem 1.5rem;\n            border-radius: 4px;\n            cursor: pointer;\n            font-size: 1rem;\n        }\n        button:hover {\n            background: #e55a5a;\n        }\n        details {\n            background: white;\n            padding: 1rem;\n            border-radius: 8px;\n            margin: 1rem 0;\n            box-shadow: 0 2px 6px rgba(0,0,0,0.1);\n        }\n        summary {\n            font-weight: bold;\n            cursor: pointer;\n            color: var(--coral);\n        }\n        .faq-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n            gap: 1rem;\n        }\n        footer {\n            margin-top: 4rem;\n            padding-top: 2rem;\n            border-top: 1px solid #ddd;\n            text-align: center;\n            font-size: 0.9rem;\n            color: #666;\n        }\n        @media (max-width: 768px) {\n            body { padding: 10px; }\n            h1 { font-size: 2rem; }\n            .staggered { flex-direction: column; }\n        }\n    </style>\n\n\n    <main>\n        <nav>\n            <div class=\"logo\">青云梯</div>\n            <div>\n                <a href=\"#plans\">套餐对比</a>\n                <a href=\"#use\">使用场景</a>\n                <a href=\"#how\">操作说明</a>\n                <a href=\"#faq\">FAQ</a>\n                <a href=\"#download\">下载</a>\n            </div>\n        </nav>\n        <h1>青云梯</h1>\n        <p>提供稳定VPN网络加速服务，帮助用户高效连接全球网络。</p>\n        <section class=\"staggered\">\n            <div class=\"text\">\n                <h2>品牌简介</h2>\n                <p>青云梯是一款专注于网络加速的工具，通过先进的代理技术提供安全、高速的网络连接体验。</p>\n            </div>\n            <div class=\"card\">\n                <p>适用于个人用户和企业团队，提供从基础到高级套餐选择。</p>\n            </div>\n        </section>\n        <section class=\"staggered\">\n            <div class=\"card\">\n                <h2>使用场景</h2>\n                <ul>\n                    <li>海外办公与远程工作</li>\n                    <li>访问被屏蔽的网站</li>\n                    <li>下载加速与流媒体畅享</li>\n                    <li>企业网络安全保护</li>\n                </ul>\n            </div>\n            <div class=\"text\">\n                <p>无论您是在国内访问国际资源，还是需要稳定连接，青云梯都能满足需求。</p>\n            </div>\n        </section>\n        <section id=\"plans\">\n            <h2>套餐对比</h2>\n            <div>{{PLANS_HTML}}</div>\n            <p>更多详情请参考完整套餐页面</p>\n        </section>\n        <section class=\"staggered\">\n            <div class=\"text\">\n                <h2>操作说明</h2>\n                <ol>\n                    <li>访问官网或下载客户端</li>\n                    <li>注册并选择适合的套餐</li>\n                    <li>配置代理服务器</li>\n                    <li>连接加速节点</li>\n                </ol>\n            </div>\n            <div class=\"card\">\n                <p>详细步骤请查看帮助中心或客户端内指导。</p>\n            </div>\n        </section>\n        <section id=\"faq\">\n            <h2>常见问题</h2>\n            <div class=\"faq-grid\">\n                <details>\n                    <summary>什么是青云梯？</summary>\n                    <p>青云梯是一款VPN加速工具，旨在提升网络连接速度和稳定性。</p>\n                </details>\n                <details>\n                    <summary>如何选择套餐？</summary>\n                    <p>根据您的使用需求和预算，选择适合的套餐级别。</p>\n                </details>\n                <details>\n                    <summary>支持哪些平台？</summary>\n                    <p>支持Windows、Mac、iOS、Android等多平台客户端。</p>\n                </details>\n                <details>\n                    <summary>加速原理是怎样的？</summary>\n                    <p>通过代理节点优化数据路由，提高传输速度。</p>\n                </details>\n                <details>\n                    <summary>如何获取帮助？</summary>\n                    <p>请查看客户端内的帮助文档或联系支持团队。</p>\n                </details>\n            </div>\n        </section>\n        <section id=\"download\">\n            <h2>客户端下载</h2>\n            <div>{{CLIENTS_HTML}}</div>\n        </section>\n        <footer>\n            <p>© 2024 青云梯 所有权利保留</p>\n        </footer>\n    </main>\n\n",
+          "hash": "3573fcd40f623e4098be0f04f0e4e620354c4d4c2a414cb4bb338f781edf6f3c",
+          "seo": {
+            "title": "青云梯 - VPN加速器 | 客户端下载 | 套餐对比",
+            "keywords": "青云梯,VPN,加速器,客户端下载,机场,套餐",
+            "description": "青云梯提供优质VPN网络加速服务，安全稳定的客户端下载和套餐选择。"
+          },
+          "provider": "grok"
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "sqijlpe.cn",
+    "host": "zh.sqijlpe.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804"
+  },
+  "friendlinks": [
+    {
+      "host": "sqijlpe.cn",
+      "url": "https://sqijlpe.cn/",
+      "label": "猫熊",
+      "apex": "sqijlpe.cn",
+      "kind": null,
+      "identity": "yfnywxgph/page-346059fcf70a5710cde2f52f"
+    },
+    {
+      "host": "00ah6.cn",
+      "url": "https://00ah6.cn/",
+      "label": "SSHUB",
+      "apex": "00ah6.cn",
+      "kind": null,
+      "identity": "erjwrgjj/page-6141714b7a0f264666643c94"
+    },
+    {
+      "host": "01kmph.cn",
+      "url": "https://01kmph.cn/",
+      "label": "WeGo",
+      "apex": "01kmph.cn",
+      "kind": null,
+      "identity": "wbwftxwku/page-680ee6fa2562d6d22ba5a121"
+    }
+  ],
+  "file_hashes": {
+    "index.html": "54484468e1f612118486f7d82eb0836b4af50820f0f11ac578070b3c23fd9790",
+    "sitemap.xml": "9baa6a618311b684372fef5a998d951f243b3eee2255bf58b3e9ad481f2109b3",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "d2617fc0f101ddafd7080e584db5747884c2a5166bd9df9dcab503623d160672",
+    "robots.txt": "14ad92659abaf2054608466f055cd269b6db79bb3e6158965596c19847a61333",
+    "3b0e23bd5b9d3276c3dd5cea271fbd8e.txt": "8a27e63bf383cec7e6f9a072f4a82ad5da5008a304be602bf582618d35fe295e"
+  },
+  "revision": "698ea93ecd592bc3b3533b963f4e6e590e11c56147eccd0c576df1bbbfcbb9be"
+}
